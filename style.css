@@ -270,6 +270,9 @@ section {
 
 
 @media (max-width: 600px) {
+    section {
+        grid-template-columns: 1fr;
+    }
     body {
         margin: 20px;
     }
